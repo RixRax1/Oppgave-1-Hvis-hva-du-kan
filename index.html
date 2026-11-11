@@ -6,8 +6,18 @@
     <!-- Description of the page-->
     <meta name="description" content="Learning basic html and css" />
     <title>Tribute to Alfredinho the cat</title>
+
+    <!-- External CSS-->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon-->
     <link rel="shortcut icon" href="icons/cat.svg" type="image/x-icon" />
+
+    <!-- External font from google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <!-- Header -->
@@ -23,12 +33,20 @@
     </header>
 
     <!-- Main -->
-    <main>
+    <main class="main-section">
       <!-- Inside the main, we would have our sections-->
-      <section>
+      <section class="hero">
+        <img
+          class="hero-img"
+          width="200"
+          src="./images/alfred.jpeg"
+          alt="A lazy black and white cat sleeping on a white couch, enjoying life."
+        />
+      </section>
+      <section id="about">
         <h2>About me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
+          Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Nemo magni
           aut, earum numquam provident ducimus. Natus nesciunt dignissimos iusto
           nisi doloribus et cumque deleniti. Ipsum, hic nemo? Debitis sequi
           maiores quam, rem commodi atque vel? Mollitia vel blanditiis quas
@@ -36,8 +54,8 @@
           minus.
         </p>
       </section>
-      <section>
-        <h2>My skills</h2>
+      <section id="my-skills">
+        <h3>My skills</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
           consequuntur itaque similique minima perspiciatis quasi doloribus
@@ -46,16 +64,25 @@
         </p>
       </section>
       <section>
-        <h2>I love food</h2>
+        <h4>I love food</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
           consequuntur cum temporibus repellat dolorum accusamus quibusdam
           nostrum. Cumque, consectetur. Quas?
         </p>
       </section>
+      <h5>To do</5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta?</p>
+      <h6>Something</h6>
     </main>
 
+    <button>click me</button>
+    <button>click me</button>
+    <button>click me</button>
+    <button>click me</button>
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      mjew mjew!
+    </footer>
   </body>
 </html>

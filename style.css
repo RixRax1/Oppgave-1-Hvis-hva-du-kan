@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Orbitron";
+  src: url(fonts/Orbitron-VariableFont_wght.ttf) format(truetype);
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: darkorange;
+}
+
+h2 {
+  font-family: Italianno;
+  font-size: 30px;
+  margin: 0 0 8px;
+  color: blueviolet;
+}
+
+h3 {
+  font-family: "Orbitron";
+  color: blue;
+  background-color: burlywood;
+  border: black, 1px, solid;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 0 8px;
+  font-weight: 200;
+}
+
+p {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+button {
+  background-color: chocolate;
+  margin-bottom: 50px;
+}
+
+span {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero-img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.main-section {
+  padding: 20px;
+}
+
+#about {
+  border: black, 2px, dotted;
+  border-radius: 5px;
+}
+
+#my-skills {
+  background-color: rgb(226, 134, 251);
+}
