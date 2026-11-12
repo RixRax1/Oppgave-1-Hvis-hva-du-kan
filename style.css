@@ -1,10 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Orbitron";
   src: url(fonts/Orbitron-VariableFont_wght.ttf) format(truetype);
 }
 
-h1 {
+body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
   font-size: 24px;
   color: darkorange;
 }
@@ -20,7 +29,7 @@ h3 {
   font-family: "Orbitron";
   color: blue;
   background-color: burlywood;
-  border: black, 1px, solid;
+  border: black 1px solid;
   border-radius: 15px;
   text-align: center;
 }
@@ -28,13 +37,11 @@ h3 {
 h4,
 h5,
 h6 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0 0 8px;
   font-weight: 200;
 }
 
 p {
-  margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-bottom: 20px;
   font-style: italic;
@@ -50,17 +57,31 @@ span {
   font-weight: bold;
 }
 
+footer {
+  border-top: 1px solid darkorange;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: burlywood;
+  color: whitesmoke;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  border-bottom: 1px solid darkorange;
 }
 
 .nav {
   display: flex;
   gap: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav-links a {
+  color: darkorange;
+  text-decoration: none;
 }
 
 .hero-img {
@@ -72,11 +93,70 @@ span {
   padding: 20px;
 }
 
+.chair-card {
+  width: 300px;
+  background-color: chocolate;
+  border: 4px solid burlywood;
+  padding: 10px;
+  margin: 20px;
+}
+
+.chair-image {
+  width: 100%;
+}
+
+.chair-title {
+  margin-top: 5px;
+}
+
+.chair-description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: blanchedalmond;
+}
+
+.wish-button {
+  padding: 10px 20px;
+  background-color: darkgreen;
+  color: blanchedalmond;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.iluvfood {
+  margin: 5px 5px;
+  text-align: end;
+}
+
+.about-text {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: blue;
+}
+
 #about {
-  border: black, 2px, dotted;
+  border: black 2px dotted;
   border-radius: 5px;
 }
 
 #my-skills {
-  background-color: rgb(226, 134, 251);
+  background-color: rgb(226, 134, 251) !important;
+  margin-top: 20px;
+}
+
+#my-skills {
+  background-color: rgb(113, 209, 16);
+  margin-top: 20px;
+}
+
+#food {
+  border: pink 1px solid;
+  margin-top: 20px;
 }
