@@ -82,6 +82,7 @@ footer {
 .nav-links a {
   color: darkorange;
   text-decoration: none;
+  padding: 10px 10px;
 }
 
 .hero-img {
